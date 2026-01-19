@@ -8,16 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/getsettalk/rn-init"
+    "url": "https://github.com/getsettalk/ create-rn"
   },
-  "homepage": "https://github.com/getsettalk/rn-init#readme",
+  "homepage": "https://github.com/getsettalk/ create-rn#readme",
   "bugs": {
-    "url": "https://github.com/getsettalk/rn-init/issues"
+    "url": "https://github.com/getsettalk/ create-rn/issues"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
+    "create-rn",
     "react-native",
     "cli",
     "init",
