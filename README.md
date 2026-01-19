@@ -1,5 +1,5 @@
 
-# 🚀 rn-init
+# 🚀  create-rn
 
 A modern, interactive CLI to create React Native projects easily — without remembering long commands.
 
@@ -8,23 +8,6 @@ GitHub: https://github.com/getsettalk
 
 ---
 
-## ✨ Why rn-init?
-
-Creating a React Native project usually requires remembering long commands like:
-
-```bash
-npx @react-native-community/cli@latest init MyApp
-````
-
-or for older versions:
-
-```bash
-npx @react-native-community/cli@0.83.1 init MyApp --version 0.83.1
-```
-
-**`rn-init` simplifies all of this into one clean command** with an interactive experience.
-
----
 
 ## 🎯 Features
 
@@ -44,13 +27,13 @@ npx @react-native-community/cli@0.83.1 init MyApp --version 0.83.1
 ### Create a project (interactive)
 
 ```bash
-npx rn-init
+npx  create-rn
 ```
 
 ### Create a project with name
 
 ```bash
-npx rn-init MyApp
+npx  create-rn MyApp
 ```
 
 You will be prompted to:
@@ -72,7 +55,7 @@ You will be prompted to:
 This avoids npm dependency conflicts and follows official best practices.
 
 
-## ⚠️ Before You Run rn-init (IMPORTANT)
+## ⚠️ Before You Run  create-rn (IMPORTANT)
 
 Make sure your system is properly set up for React Native development.
 
@@ -135,7 +118,7 @@ You can safely cancel the process using:
 Ctrl + C
 ```
 
-`rn-init` exits gracefully without errors.
+` create-rn` exits gracefully without errors.
 
 ---
 
@@ -153,7 +136,7 @@ Ctrl + C
 Always run via:
 
 ```bash
-npx rn-init
+npx  create-rn
 ```
 
 This ensures you always use the **latest published version** of the CLI.
@@ -174,7 +157,26 @@ This ensures you always use the **latest published version** of the CLI.
 
 ### ❓ npm dependency errors?
 
-You are safe — `rn-init` uses the official CLI method which avoids common npm peer dependency conflicts.
+You are safe — ` create-rn` uses the official CLI method which avoids common npm peer dependency conflicts.
+
+---
+
+
+## ✨ Why  create-rn?
+
+Creating a React Native project usually requires remembering long commands like:
+
+```bash
+npx @react-native-community/cli@latest init MyApp
+````
+
+or for older versions:
+
+```bash
+npx @react-native-community/cli@0.83.1 init MyApp --version 0.83.1
+```
+
+**` create-rn` simplifies all of this into one clean command** with an interactive experience.
 
 ---
 

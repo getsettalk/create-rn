@@ -1,10 +1,10 @@
 {
-  "name": "rn-init",
+  "name": "create-rn",
   "version": "1.0.0",
   "description": "Short & interactive React Native project initializer",
   "type": "module",
   "bin": {
-    "rn-init": "index.js"
+    "create-rn": "index.js"
   },
   "repository": {
     "type": "git",
