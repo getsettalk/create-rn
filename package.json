@@ -1,6 +1,6 @@
 {
   "name": "create-rn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Short & interactive React Native project initializer",
   "type": "module",
   "bin": {
