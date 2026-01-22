@@ -143,6 +143,11 @@ This ensures you always use the **latest published version** of the CLI.
 
 ---
 
+## Screenshot
+<img width="794" height="778" alt="image" src="https://github.com/user-attachments/assets/3ec5a3d0-9a74-402b-9a84-f71b96b57d0c" />
+
+
+
 ## 🧪 Example Flow
 
 ```text

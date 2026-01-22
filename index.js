@@ -11,6 +11,12 @@ process.on("SIGINT", () => {
   process.exit(0);
 });
 
+/* ================= CLEAR TERMINAL ================= */
+
+function clearTerminal() {
+  console.clear();
+}
+
 /* ================= LOGO ================= */
 
 function showLogo() {
@@ -25,7 +31,7 @@ function showLogo() {
     ╚═╝  ╚═╝╚═╝  ╚═══╝      ╚═╝╚═╝  ╚═══╝╚═╝   ╚═╝   
 `)
   );
-  console.log(chalk.green("      Created with love in India 🇮🇳"));
+  console.log(chalk.green("          Created with love in India"));
   console.log(chalk.gray("      GitHub → https://github.com/getsettalk\n"));
 }
 
@@ -68,6 +74,7 @@ const RN_VERSIONS = [
 /* ================= MAIN ================= */
 
 async function run() {
+  clearTerminal();
   showLogo();
 
   const args = process.argv.slice(2);
