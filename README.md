@@ -16,7 +16,6 @@ GitHub: https://github.com/getsettalk
 * 📦 Optional project name (prompt if missing)
 * 🔢 Choose React Native version (latest / older / custom)
 * 🧠 Proper validation (project name & version)
-* 🛑 Graceful cancel (Ctrl + C)
 * 💻 Works on macOS, Windows & Linux
 * ⚡ Always uses official React Native Community CLI
 
